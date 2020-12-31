@@ -15,12 +15,12 @@ npm install --save react-code-playground
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-code-playground'
+import CodePlayground from 'react-code-playground'
 import 'react-code-playground/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <CodePlayground />
   }
 }
 ```
